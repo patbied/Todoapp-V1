@@ -1,0 +1,11 @@
+.button {
+    width: 100%;
+    background: white;
+    color: black;
+    transition: 200ms color, 200ms background;
+}
+.button:hover{
+    background: black;
+    color: white;
+    transition: 200ms color, 200ms background;
+}

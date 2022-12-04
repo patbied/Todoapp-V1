@@ -1,0 +1,17 @@
+.center {
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 14px 11px 5px -8px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 14px 11px 5px -8px rgba(0,0,0,0.53);
+    -moz-box-shadow: 14px 11px 5px -8px rgba(0,0,0,0.53);
+    margin: 25px auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+@media (max-width: 1200px){
+    .center {
+        width: 80%;
+    }
+}

@@ -1,0 +1,16 @@
+.form {
+    text-align: left;
+    
+}
+.input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input:focus {
+    background-color: rgb(234, 234, 234);
+    border: 2px solid red;
+    box-shadow: 3px 7px 5px 0px rgba(0,0,0,0.53);
+}
+.invalid {
+color: red;
+}
